@@ -1,3 +1,4 @@
+```markdown
 # Miku 💙
 
 **A local-first AI desktop companion for Windows.**
@@ -8,14 +9,14 @@ Miku is an experimental AI desktop companion designed to feel like a friendly pr
 
 🚧 **Early development — prototype**
 
-### Currently implemented
+## Currently implemented
 
 - JavaFX desktop chat interface.
 - Local AI integration using Ollama.
 - Support for the llama3.2:3b model.
 - Asynchronous AI responses using Java HTTP Client.
 
-### Planned features
+## Planned features
 
 - Floating animated desktop companion.
 - Smart contextual screen awareness with user-controlled privacy settings.
@@ -50,3 +51,40 @@ Pull the model:
 
 ```bash
 ollama pull llama3.2:3b
+
+```
+
+### 2. Clone the repository
+
+```bash
+git clone [https://github.com/fareeth10/MIKU.git](https://github.com/fareeth10/MIKU.git)
+cd MIKU
+
+```
+
+### 3. Run Miku
+
+```bash
+mvn javafx:run
+
+```
+
+Make sure Ollama is running before launching the application.
+
+## Privacy
+
+Miku is being developed with a local-first approach. The current prototype communicates with a locally running Ollama instance.
+
+Screen capture and contextual screen analysis are not yet implemented.
+
+## Vision
+
+The goal is to build an AI companion that doesn't just respond to commands but can understand context, interact naturally, and become a customizable companion on the Windows desktop.
+
+## License
+
+No license has been selected yet.
+
+```
+
+```
