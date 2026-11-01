@@ -1,0 +1,25 @@
+# Maven build files
+target/
+
+# Java compiled files
+*.class
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Windows files
+Thumbs.db
+.DS_Store
+
+# Backups
+MikuApp-backup.txt
+
+# Local secrets/configuration
+.env
+*.local.properties
