@@ -1,4 +1,4 @@
-```markdown
+
 # Miku 💙
 
 **A local-first AI desktop companion for Windows.**
